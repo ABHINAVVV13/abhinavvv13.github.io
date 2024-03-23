@@ -1,7 +1,6 @@
 import { Route, HashRouter as Router, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import { Home, About, Projects, Contact, WalletInfo } from "./pages";
-
 function App() {
   return (
     <main className="bg-slate-300/20">
