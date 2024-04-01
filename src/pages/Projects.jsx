@@ -39,7 +39,7 @@ const Projects = () => {
         <h3 className='subhead-text'>Projects</h3>
         <div className='mt-5 flex flex-col gap-3 text-slate-500'>
           <p>
-            Here is my journey so far. The following timeline gives a brief overview of my work project and education.
+            Here is my journey so far. The following timeline gives a brief overview of projects.
           </p>
         </div>
 

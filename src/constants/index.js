@@ -38,6 +38,9 @@ import university from '../assets/icons/university.png';
 import snow_clear from "../assets/images/snow_clear.png";
 import porfolio from "../assets/images/porfolio.png";
 import wallet from "../assets/images/wallet.png";
+import price from "../assets/images/price.jpg";
+import showdown from "../assets/images/showdown.png";
+
 
 export const skills = [
     {
@@ -241,7 +244,7 @@ export const projects = [
           "This project aims to optimize the snow clearing process for the most efficient rountes in St. John's ",
           "This algorithm is based on the solution to the Chinese Postman Problem.",
           "It collects map data from OpenStreetMap and uses NetworkX and plotly to calculate and display the solution.",
-          "Libraries used: NetworkX, Matplotlib, Pandas, NumPy, osmnx, plotly",
+          "Stack: NetworkX, Matplotlib, Pandas, NumPy, osmnx, plotly",
         ],
         link: 'https://github.com/ABHINAVVV13/Optimizing-Snow-Clearing-St.Johns-NL',
         imagi: snow_clear,
@@ -252,7 +255,7 @@ export const projects = [
         date: "Project 2",
         points: [
          "Ever since I was a kid, I've been fascinated by 3D models and animations. Back then I always used to draw animals and worlds from my imagination behind my notebooks.",
-         "So I have decided to make a 3D portfolio to showcase my work and projects as a tribute to my childhood and ofcourse OnePiece.",
+         "So I have decided to make a 3D portfolio to showcase my work and projects as a tribute to my childhood and ofcourse OnePiece(anime).",
 
          "This project is built using React, Three.js, and React-Three-Fiber.",
          "IT IS GRAPHIC INTENSIVE, SO PLEASE WAIT FOR THE PAGE TO LOAD.",
@@ -271,11 +274,49 @@ export const projects = [
 
             "I made this project quickly track the token details of a wallet address in Solona Blockchain. As other websites UI was not user friendly, too cluttered with unnecessary information and had too many ads.",
 
-            "API's used: Solona API, Shyft API.",
+            "Stack: Solona API, Shyft API.",
          
         ],
-        link: 'https://abhinavreddyputta.com',
+        link: 'https://abhinavvv13.github.io/#/wallet-info',
         imagi: wallet,
     },
+    {
+        title: "English to SQL query converter using AI",
+        iconBg: "#accbe1",
+        date: "Project 4",
+        points: [
+            "This project is built using LangChain and ChatGPT 3.5 api.",
+            "It converts English language sentences to executable SQL queries.",
+            "It is a simple project that I made to play around wih ChatGPT api",
+            "Stack: LangChain, ChatGPT 3.5 api"
+        ],
+        link: 'https://github.com/ABHINAVVV13/English-to-SQL-query',
+        imagi: sql,
+    },
+    {
+        title: "Solona price prediction using twitter sentiment analysis",
+        iconBg: "#accbe1",
+        date: "Project 5",
+        points: [
+            "This project uses Twitter's API to stream tweets about Solana, analyzes the sentiment of each tweet using AWS Comprehend, and predicts the price movement of Solana based on the sentiment analysis.",
+            "Stack: AWS Comprehend, Twitter API",
+            
+        ],
+        link: 'https://github.com/ABHINAVVV13/Solona-Price-Prediction',
+        imagi: price,
+    },
+    {
+        title: "Solar Showdown",
+        iconBg: "#accbe1",
+        date: "Project 6",
+        points: [
+          "This project was built by me and my friends during MCE's game jam 2024.",
+          "It is a 2D space shooter game where the player has to shoot down enemy ships to survive so that he can maintain his visibilty circle.",
+          "Stack: Unity, C#",
+        ],
+        link: 'https://github.com/ABHINAVVV13/Solar-Showdown',
+        imagi: showdown,
+    },
+
     
 ];
